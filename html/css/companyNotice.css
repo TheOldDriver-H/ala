@@ -1,0 +1,6 @@
+.adv_contain{width: 950px;min-height: 400px;display: block;position: relative}
+.adv_contain ul{width: 950px;margin-bottom: 10px;}
+.adv_contain ul li{cursor: pointer;width: 950px;height: 40px;text-indent: 15px;font-size: 14px;border-bottom: 1px dashed#e5e3e4;line-height: 40px;}
+.adv_contain ul a{color:#737070}
+.adv_contain ul a:hover{color: #f26161;}
+.adv_contain ul span{color:#737070;float: right;}

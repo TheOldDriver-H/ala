@@ -1,0 +1,4 @@
+.news_title .name {font-size: 24px;width: 172px;color: #fffefe;padding: 10px 25px;background: #e95400;text-align: center;}
+.inv_contact{width 100%;background: #fff;margin-bottom: 30px;padding: 10px 0;overflow: hidden;}
+.inv_contact ul{width: 510px;float: left;list-style: none;margin-bottom: 10px;}
+.inv_contact ul li{width: 100%;font-size: 14px;line-height: 28px;color: #555454;text-indent: 20px;}

@@ -1,0 +1,43 @@
+#swiper-container{width: 100% !important;height: 500px;margin-top: 0 !important;}
+#swiper-container .swiper-wrapper img{width: 100% !important; height: 500px;}
+.swiper-container .btn{opacity: 0;}
+.swiper-container:hover .btn{-webkit-animation: fadein 1s 1 forwards}
+@-webkit-keyframes fadein{0%{opacity: 0;} 100% {opacity: 1;}}
+.middle_title{width: 100%;clear: both;height: 50px;margin: 30px auto;}
+.middle_title .line{width: 350px; height: 8px;margin-top: 19px;}
+.middle_title .left_line{background: url(../img/xiantiao_left.png) no-repeat center; float: left;}
+.middle_title .title_font{width: 324px; height: 50px;float: left;text-align: center;}
+.middle_title .title_font span{font-size: 18px;color: #807f7e;}
+.middle_title .right_line{background: url(../img/xiantiao_right.png) no-repeat center; float: right;}
+#contain .product{width: 1024px; margin-top: 20px;overflow: hidden;}
+#contain .product ul{overflow: hidden;}
+#contain .product ul li {float: left;width: 246px;height: 300px;margin-right: 10px;background: #f8f8f8;border: 1px solid #e1e1e1;cursor: pointer;}
+#contain .product ul li .icon{width: 100%; height: 144px;-webkit-transition: -webkit-transform 0.4s ease-in-out;-moz-transition: -moz-transform 0.4s ease-in-out; transition: transform o.4s ease-in-out;}
+#contain .product ul li .title{font-size: 16px;color: #747373;text-align: center;}
+#contain .product ul li .text{font-size: 14px;color: #747373;text-align: center;padding: 2px 11px;line-height: 22px;}
+#contain .product ul li:hover {background: #f69925;}
+#contain .product ul li:hover .icon{-webkit-transform: rotatey(180deg);-moz-transform: rotatey(180deg);transform: rotatey(180deg);}
+#contain .product ul li:hover .title,#contain .product ul li:hover .text{color: #fff;}
+#map{width: 100%;height: 600px;position: relative;}
+#map a{display: block;width: 165px;height: 44px;position: absolute;left: 60%;}
+#program{width: 100%;padding: 30px 0 0 0;background: #f2f2f2;}
+#program .program_1{width: 1024px;margin: 0 auto;}
+#program .program_1 ul{overflow: hidden;}
+#program .program_1 ul li{float: left;width: 321px;height: 240px;background: #fff;margin-bottom: 30px;}
+#program .program_1 .pr_img{width: 321px;height: 165px;}
+#program .program_1 ul li p {font-size: 18px;color: #807F7E;text-align: center;}
+#program .program_1 ul li:hover {background: #F69925;}
+#program .program_1 ul li:hover p{color: white;}
+#content{padding-bottom: 30px;}
+#content .news{width: 100%;padding: 10px 30px 0;}
+#content .news ul li{width: 100%; height: 33px;}
+#content .news ul li p{text-indent:1em;width: 100%;line-height: 33px;}
+#content .news ul li p a{color: #807F7E;font-size: 16px;width: 80%;}
+#content .news ul li p a:hover{text-decoration: underline;}
+#content .news ul li p span{color: #807F7E;font-size: 16px;text-align: right;float: right;}
+.p_list{text-align: center !important;margin-top: 0 !important;line-height: 17px !important;}
+button{background: #F69925;color: white;border-radius: 4px;border: 0;padding: 10px 20px ;margin-top: 35px;cursor: pointer;}
+#bottom_container .span_pic{display: inline-block;width: 21px;height: 21px;text-indent: -1000px;margin-left: 15px;}
+.middle_about{width: 100%;height: 130px;margin-top: 35px;margin-bottom: 30px;}
+.middle_about p{color: #5e5d5d;line-height: 28px;text-align: left;font-size: 14px;}
+
