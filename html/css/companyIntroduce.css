@@ -1,0 +1,11 @@
+.news_title{overflow: hidden;}
+.news_title .name{float: left;}
+.news_title .about_name{font-size: 28px;color: #686767;line-height: 47px;margin-left: 330px;float: left;}
+.about_contain{width: 100%;min-height: 240px;height: auto;position: relative;display: block;margin: 20px 0 55px 0;overflow: hidden;}
+.about_contain .about_pic{width: 350px;height: 240px;margin-right: 38px;float: left;}
+.about_contain .about_main{width: 635px;float: left;}
+.about_title{font-size: 18px;color: #E95400;margin-bottom: 35px;}
+.certificate1,.certificate2{width: 100%;position: relative;overflow: hidden;}
+.about_main p,.about_contain p{font-size: 15px;color: #555454;line-height: 25px;text-indent: 30px;}
+.certificate1 ul li,.certificate2 ul li{float: left;width: 220px;height: 152px;margin-right: 45px;margin-bottom: 20px;}
+.certificate2 ul li{width: 172px;height: 222px;margin-right: 41px;}

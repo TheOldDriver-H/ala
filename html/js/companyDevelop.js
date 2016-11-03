@@ -1,23 +1,21 @@
-(function () {
+(function() {
 	$.ajax({
-		type:"get",
-		url:"../php/code/middlePic.php?pic_id=4",
-		async:true,
-		success:function (obj) {
+		type: "get",
+		url: "../php/code/middlePic.php?pic_id=9",
+		async: true,
+		success: function(obj) {
 			var str = JSON.parse(obj);
-			console.log(str[0].pic);
 			$("#banner_news").css({
 				background: "url(../php/img/" + str[0].pic + ") no-repeat center",
 				backgroundSize: "cover",
 			})
-//			console.log('ii')
 		}
 	});
 })();
 (function() {
 	$.ajax({
 		type: "get",
-		url: "../php/code/companySpeech.php?id=4",
+		url: "../php/code/companySpeech.php?id=3",
 		async: true,
 		success: function(obj) {
 			var arr = JSON.parse(obj);
